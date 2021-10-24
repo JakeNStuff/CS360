@@ -1,1 +1,21 @@
 # CS360
+
+For the assignment I was developing an inventory app with create, edit, and delete capabilities but I had fallen short of the database functions to do all of that.
+
+It was also supposed to have a login feature which I had started but was unable to finished, the application was meant to let a user log in, or register with added company and contact information (with SMS optional for users) in order to track inventory in a commercial or a personal setting, and I had discussed the ability of it being a free program with paid quality of life improvements.
+
+The UI of the app was pretty straightforward but effective in terms of design, not too busy to make people not want to use the app, but not too simplified to make people dislike using it due to limited design either.
+
+I wasn't particularly successful in developing the application and during week eight I had tried to make a little bit more progress while waiting for a response again from the professor but they were also busy so I did not hear from them, so I wasn't really able to make any additional progress
+
+Below is the text from my app launch plan for further elaboration:
+
+The app itself is a simple inventory app, so the description of the app should reflect that, but it should have some flair to attract individual users and companies to use it. An apt description could be something like “With <the name of the inventory app> you can easily keep track of personal belongings, or the general stock of a store front or other business. Or even use it to keep track of your pantry at home!”. Going too detailed with a description could make people less interested just by reading the overly complicated description, but too simple might insult them as well, so striking a balance is key! As for an icon, one would want to go for something like a clip board or a store front. A clip board would be more welcoming for individual users. While a store front might be better for attracting businesses, but the clip board would be universal enough, alongside the name of the product, to ease that issue. 
+	
+The structure of the application is pretty straight forward and it doesn’t need to ask for many permissions, it would not need to record phone audio or have camera access in it’s current form. If anything the only thing it may need to ask for is the ability to send messages to you through the SMS notification option. Speaking of this option, it will be one of the notifications locked behind the paid version of the app.
+
+A key component to app structure in the current market climate is a free to use, pay to improve, type experience. For a single personal user, the free version of the application would be fine, they can track items but it will have no company affiliation, and they will not be able to use the SMS features. But to add company information to the mix and be able to house multiple users for a company, they would require the paid version of the application, a one time payment would not be the smart option here because application upkeep will need to be kept in mind. Recurring payment is the method we would want to use here. 
+
+We would include different development plan options, first of all, for both a year plan and a monthly plan, we would want to include free trials. Let’s say, for the monthly plan, you can use it for one month 100% free, and then start paying, where you can cancel it if you dislike the application, and for a year plan, this would be the first two months of the year cycle, and it would take those two months out of the first years cost to cut them an even better deal. Both these plans would give them the ability to include a higher number of users. Let’s say, up to five users, but they could purchase additional user packages to increase that number. 
+
+Due to the simplicity of the application, it should be find to run on a variety of devices, the emulator device we used in development replicated that of a Pixel 2 with Android 11.0 (R, API 30). I had created a Galaxy Nexus virtual machine with Lollipop (API 22) to see how it would translate to the different phone and structure, though this gave me a warning about it being under API 28, which means the device must at least be using Android Pie, with Q and R both being higher. 
